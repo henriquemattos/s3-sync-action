@@ -1,9 +1,9 @@
-name: "S3 Sync"
-description: "Sync a directory to an AWS S3 repository"
-author: jakejarvis
+name: "AWS CLI v2 S3 Sync"
+description: "Sync a directory to an AWS S3 repository using CLI v2"
+author: henriquemattos
 runs:
   using: docker
   image: Dockerfile
 branding:
-  icon: refresh-cw
+  icon: upload-cloud
   color: green
